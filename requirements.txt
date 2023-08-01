@@ -1,10 +1,8 @@
 streamlit 
-matplotlib.pyplot
+matplotlib
 seaborn
 pandas
 numpy
 urlextract
-re
 emoji
 wordcloud
-collections
