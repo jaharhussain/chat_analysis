@@ -96,15 +96,15 @@ if uploaded_file is not None:
 
             st.pyplot(fig)
 
-        grouped_by_time = helper.hourmap(selected_user,df)
-        plt.rcParams['font.size'] = 16
-        plt.rcParams['figure.figsize'] = (20, 8)
+    #     grouped_by_time = helper.hourmap(selected_user,df)
+    #     plt.rcParams['font.size'] = 16
+    #     plt.rcParams['figure.figsize'] = (20, 8)
 
-    # Beautifying Default Styles using Seaborn
-        sns.set_style("darkgrid")
+    # # Beautifying Default Styles using Seaborn
+    #     sns.set_style("darkgrid")
 
-    # PLOT: grouped by hour
-        sns.barplot(grouped_by_time.hour, grouped_by_time.message_count)
-        fig,ax = plt.subplots()
-        st.title('Most Active Hours');
-        st.pyplot(fig)
+    # # PLOT: grouped by hour
+    #     sns.barplot(grouped_by_time.hour, grouped_by_time.message_count)
+    #     fig,ax = plt.subplots()
+    #     st.title('Most Active Hours');
+    #     st.pyplot(fig)
